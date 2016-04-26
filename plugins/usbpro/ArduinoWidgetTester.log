@@ -1,0 +1,11 @@
+...common/rdm/RDMCommand.cpp:228: RDM checksum mismatch, was 591 but was supposed to be 590
+common/rdm/RDMCommand.cpp:195: RDM message is too small, needs to be at least 23, was 8
+common/rdm/RDMCommand.cpp:414: Transaction numbers don't match, got 3, expected 2
+common/rdm/RDMCommand.cpp:427: Sub device didn't match, got 11, expected 10
+.plugins/usbpro/ArduinoWidget.cpp:179: USB Device reports checksum mismatch
+plugins/usbpro/ArduinoWidget.cpp:182: USB Device reports invalid destination
+plugins/usbpro/ArduinoWidget.cpp:185: USB Device reports invalid command
+
+
+OK (4)
+PASS plugins/usbpro/ArduinoWidgetTester (exit status: 0)

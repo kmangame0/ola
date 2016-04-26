@@ -1,0 +1,75 @@
+.olad/OlaDaemon.cpp:121: Using configs in /Users/kellenreason/.ola
+common/thread/Thread.cpp:192: Thread pref-saver, policy SCHED_OTHER, priority 31
+olad/OlaServer.cpp:194: Server UID is 7a70:99bcd18d
+olad/OlaServer.cpp:206: Server instance name is OLA Server
+olad/plugin_api/Preferences.cpp:424: Missing /Users/kellenreason/.ola/ola-universe.conf: No such file or directory - this isn't an error, we'll just use the defaults
+common/thread/Thread.cpp:192: Thread bonjour, policy SCHED_OTHER, priority 31
+olad/OlaServer.cpp:481: Updated PID definitions.
+olad/OlaServer.cpp:489: PID store is at 0x7fc82173bdd0
+common/thread/Thread.cpp:192: Thread , policy SCHED_OTHER, priority 31
+olad/PluginManager.cpp:195: Trying to start Dummy
+olad/plugin_api/DeviceManager.cpp:105: Installed device: Dummy Device:1-1
+olad/PluginManager.cpp:200: Started Dummy
+olad/PluginManager.cpp:195: Trying to start ArtNet
+olad/plugin_api/DeviceManager.cpp:105: Installed device: ArtNet [141.209.188.153]:2-1
+olad/PluginManager.cpp:200: Started ArtNet
+olad/PluginManager.cpp:195: Trying to start ShowNet
+olad/plugin_api/DeviceManager.cpp:105: Installed device: ShowNet [141.209.188.153]:3-1
+olad/PluginManager.cpp:200: Started ShowNet
+olad/PluginManager.cpp:195: Trying to start ESP Net
+olad/plugin_api/DeviceManager.cpp:105: Installed device: ESP Net [141.209.188.153]:4-1
+olad/PluginManager.cpp:200: Started ESP Net
+olad/PluginManager.cpp:195: Trying to start Serial USB
+common/thread/Thread.cpp:192: Thread , policy SCHED_OTHER, priority 31
+olad/PluginManager.cpp:200: Started Serial USB
+olad/PluginManager.cpp:195: Trying to start Enttec Open DMX
+common/io/IOUtils.cpp:39: open(/dev/dmx0): No such file or directory
+plugins/opendmx/OpenDmxPlugin.cpp:80: Could not open /dev/dmx0 No such file or directory
+olad/PluginManager.cpp:200: Started Enttec Open DMX
+olad/PluginManager.cpp:195: Trying to start SandNet
+olad/plugin_api/DeviceManager.cpp:105: Installed device: SandNet [141.209.188.153]:7-1
+olad/PluginManager.cpp:200: Started SandNet
+olad/PluginManager.cpp:195: Trying to start StageProfi
+olad/PluginManager.cpp:200: Started StageProfi
+olad/PluginManager.cpp:195: Trying to start Pathport
+common/network/IPV4Address.cpp:89: Could not convert address 681265465
+olad/plugin_api/DeviceManager.cpp:105: Installed device: Pathport [141.209.188.153]:9-1
+olad/PluginManager.cpp:200: Started Pathport
+olad/PluginManager.cpp:195: Trying to start E1.31 (sACN)
+olad/plugin_api/DeviceManager.cpp:105: Installed device: E1.31 (DMX over ACN) [141.209.188.153]:11-1
+olad/PluginManager.cpp:200: Started E1.31 (sACN)
+olad/PluginManager.cpp:195: Trying to start USB
+libs/usb/HotplugAgent.cpp:166: USB hotplug event: 20:9 @0x7fc8217161c0 [add]
+libs/usb/HotplugAgent.cpp:166: USB hotplug event: 20:5 @0x7fc821502f60 [add]
+libs/usb/HotplugAgent.cpp:166: USB hotplug event: 20:3 @0x7fc821503490 [add]
+libs/usb/HotplugAgent.cpp:166: USB hotplug event: 20:0 @0x7fc821502ec0 [add]
+libs/usb/LibUsbThread.cpp:49: -- Starting libusb thread
+common/thread/Thread.cpp:192: Thread , policy SCHED_OTHER, priority 31
+libs/usb/LibUsbThread.cpp:34: ----libusb event thread is running
+olad/PluginManager.cpp:200: Started USB
+olad/PluginManager.cpp:195: Trying to start OSC
+plugins/osc/OSCNode.cpp:77: OSC Error. Code 9904, cannot find free port, 
+olad/PluginManager.cpp:198: Failed to start OSC
+olad/PluginManager.cpp:195: Trying to start KiNET
+olad/plugin_api/DeviceManager.cpp:105: Installed device: KiNet Device:16-1
+olad/PluginManager.cpp:200: Started KiNET
+olad/PluginManager.cpp:195: Trying to start KarateLight
+common/io/IOUtils.cpp:39: open(/dev/kldmx0): No such file or directory
+plugins/karate/KaratePlugin.cpp:79: Could not open /dev/kldmx0 No such file or directory
+olad/PluginManager.cpp:200: Started KarateLight
+olad/PluginManager.cpp:195: Trying to start Milford Instruments
+olad/PluginManager.cpp:200: Started Milford Instruments
+olad/PluginManager.cpp:195: Trying to start Renard
+olad/PluginManager.cpp:200: Started Renard
+olad/PluginManager.cpp:195: Trying to start Open Pixel Control
+olad/PluginManager.cpp:200: Started Open Pixel Control
+olad/PluginManager.cpp:195: Trying to start GPIO
+olad/PluginManager.cpp:200: Started GPIO
+libs/usb/LibUsbThread.cpp:54: -- Stopping libusb thread
+libs/usb/LibUsbThread.cpp:44: ----libusb thread exiting
+ola/StreamingClient.cpp:171: The RPC socket has been closed, this is more than likely due to a framing error, perhaps you're sending too fast?
+common/network/TCPSocket.cpp:158: connect(127.0.0.1:53157): Connection refused
+
+
+OK (1)
+PASS ola/OlaClientTester (exit status: 0)

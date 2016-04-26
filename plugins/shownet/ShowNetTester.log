@@ -1,0 +1,14 @@
+.plugins/shownet/ShowNetNode.cpp:237: Skipping small shownet packet received, size=0
+plugins/shownet/ShowNetNode.cpp:237: Skipping small shownet packet received, size=5
+plugins/shownet/ShowNetNode.cpp:242: Skipping a packet that isn't a compressed shownet packet
+plugins/shownet/ShowNetNode.cpp:254: Strange ShowNet packet, indexBlock[0] is 0, please contact the developers!
+plugins/shownet/ShowNetNode.cpp:254: Strange ShowNet packet, indexBlock[0] is 4, please contact the developers!
+plugins/shownet/ShowNetNode.cpp:265: Invalid shownet packet, enc_len=-11, netSlot=0
+plugins/shownet/ShowNetNode.cpp:265: Invalid shownet packet, enc_len=-11, netSlot=1
+plugins/shownet/ShowNetNode.cpp:265: Invalid shownet packet, enc_len=0, netSlot=1
+plugins/shownet/ShowNetNode.cpp:284: Malformed shownet packet, slotSize=0
+plugins/shownet/ShowNetNode.cpp:284: Malformed shownet packet, slotSize=0
+...
+
+OK (4)
+PASS plugins/shownet/ShowNetTester (exit status: 0)

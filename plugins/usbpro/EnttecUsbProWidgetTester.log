@@ -1,0 +1,13 @@
+..plugins/usbpro/EnttecUsbProWidget.cpp:556: UsbPro got corrupted packet, status: 1
+....plugins/usbpro/EnttecUsbProWidget.cpp:354: Strange RDM timeout message, length was 4
+.plugins/usbpro/EnttecUsbProWidget.cpp:289: Muting 00a1:01020304, TN: 0
+plugins/usbpro/EnttecUsbProWidget.cpp:367: Unable to mute device
+plugins/usbpro/EnttecUsbProWidget.cpp:289: Muting 00a1:01020304, TN: 1
+plugins/usbpro/EnttecUsbProWidget.cpp:474: Probably muted device
+.plugins/usbpro/EnttecUsbProWidget.cpp:307: Un-muting all devices, TN: 0
+.plugins/usbpro/EnttecUsbProWidget.cpp:330: Sending DUB packet: 0000:00000000 - ffff:ffffffff
+plugins/usbpro/EnttecUsbProWidget.cpp:330: Sending DUB packet: 0000:00000000 - ffff:ffffffff
+
+
+OK (9)
+PASS plugins/usbpro/EnttecUsbProWidgetTester (exit status: 0)

@@ -1,0 +1,11 @@
+Checking ./tools/ola_trigger/example.conf
+File ./tools/ola_trigger/example.conf is valid.
+Checking ./tools/ola_trigger/test_file.conf
+File ./tools/ola_trigger/test_file.conf is valid.
+Checking ./tools/ola_trigger/contrib/mac_volume.conf
+File ./tools/ola_trigger/contrib/mac_volume.conf is valid.
+Checking ./tools/ola_trigger/contrib/mac_itunes.conf
+File ./tools/ola_trigger/contrib/mac_itunes.conf is valid.
+Checking ./tools/ola_trigger/contrib/philips_hue_lux.conf
+File ./tools/ola_trigger/contrib/philips_hue_lux.conf is valid.
+PASS tools/ola_trigger/FileValidateTest.sh (exit status: 0)

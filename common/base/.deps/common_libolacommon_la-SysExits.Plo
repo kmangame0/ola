@@ -1,0 +1,8 @@
+common/base/common_libolacommon_la-SysExits.lo: common/base/SysExits.cpp \
+  config.h /usr/include/sysexits.h include/ola/base/SysExits.h
+
+config.h:
+
+/usr/include/sysexits.h:
+
+include/ola/base/SysExits.h:

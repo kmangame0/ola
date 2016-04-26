@@ -1,0 +1,25 @@
+.common/thread/Thread.cpp:192: Thread , policy SCHED_OTHER, priority 31
+.common/thread/Thread.cpp:192: Thread , policy SCHED_OTHER, priority 31
+common/thread/Thread.cpp:192: Thread , policy SCHED_OTHER, priority 31
+.common/thread/Thread.cpp:192: Thread , policy SCHED_OTHER, priority 31
+common/thread/Thread.cpp:192: Thread , policy SCHED_OTHER, priority 31
+common/thread/Thread.cpp:192: Thread , policy SCHED_OTHER, priority 31
+common/thread/Thread.cpp:192: Thread , policy SCHED_OTHER, priority 31
+common/thread/Thread.cpp:192: Thread , policy SCHED_OTHER, priority 31
+common/thread/Thread.cpp:192: Thread , policy SCHED_OTHER, priority 31
+common/thread/Thread.cpp:192: Thread , policy SCHED_OTHER, priority 31
+common/thread/Thread.cpp:192: Thread , policy SCHED_OTHER, priority 31
+common/thread/Thread.cpp:192: Thread , policy SCHED_OTHER, priority 31
+common/thread/Thread.cpp:192: Thread , policy SCHED_OTHER, priority 31
+.common/thread/Thread.cpp:192: Thread MockThread, policy SCHED_OTHER, priority 31
+common/thread/Thread.cpp:87: Attempt to start already running thread MockThread
+.common/thread/Thread.cpp:192: Thread MockThread, policy SCHED_OTHER, priority 31
+common/thread/Thread.cpp:192: Thread ExplicitSchedParamsFIFO, policy SCHED_FIFO, priority 31
+common/thread/Thread.cpp:192: Thread MockThread, policy SCHED_OTHER, priority 31
+common/thread/Thread.cpp:192: Thread ExplicitSchedParamsRR, policy SCHED_RR, priority 31
+common/thread/Thread.cpp:192: Thread InheritSchedParams, policy SCHED_FIFO, priority 15
+.common/thread/Thread.cpp:192: Thread , policy SCHED_OTHER, priority 31
+
+
+OK (6)
+PASS common/thread/ThreadTester (exit status: 0)

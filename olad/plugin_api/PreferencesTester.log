@@ -1,0 +1,6 @@
+......common/thread/Thread.cpp:192: Thread pref-saver, policy SCHED_OTHER, priority 31
+common/io/SelectPoller.cpp:233: ss process time was 0.000000
+
+
+OK (6)
+PASS olad/plugin_api/PreferencesTester (exit status: 0)

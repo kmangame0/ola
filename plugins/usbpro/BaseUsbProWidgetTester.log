@@ -1,0 +1,5 @@
+....common/io/SelectServer.cpp:186: Removing an invalid file descriptor: 0x7f9e48c07f70
+
+
+OK (4)
+PASS plugins/usbpro/BaseUsbProWidgetTester (exit status: 0)

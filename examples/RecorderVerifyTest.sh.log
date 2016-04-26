@@ -1,0 +1,27 @@
+Checking ./examples/testdata/dos_line_endings
+------------ Summary ----------
+Universe 1: 3 frames
+Total frames: 3
+Playback time: 1.6 seconds
+Checking ./examples/testdata/multiple_unis
+------------ Summary ----------
+Universe 1: 8 frames
+Universe 3: 10 frames
+Total frames: 18
+Playback time: 10.0 seconds
+Checking ./examples/testdata/partial_frames
+------------ Summary ----------
+Universe 1: 3 frames
+Total frames: 3
+Playback time: 1.6 seconds
+Checking ./examples/testdata/single_uni
+------------ Summary ----------
+Universe 1: 24 frames
+Total frames: 24
+Playback time: 19.2 seconds
+Checking ./examples/testdata/trailing_timeout
+------------ Summary ----------
+Universe 1: 2 frames
+Total frames: 2
+Playback time: 1.9 seconds
+PASS examples/RecorderVerifyTest.sh (exit status: 0)

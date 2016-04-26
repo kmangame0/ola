@@ -1,0 +1,22 @@
+......common/rdm/RDMCommand.cpp:195: RDM message is too small, needs to be at least 23, was 10
+common/rdm/RDMCommand.cpp:195: RDM message is too small, needs to be at least 23, was 0
+common/rdm/RDMCommand.cpp:228: RDM checksum mismatch, was 323 but was supposed to be 359
+common/rdm/RDMCommand.cpp:228: RDM checksum mismatch, was 323 but was supposed to be 578
+common/rdm/RDMCommand.cpp:236: Param length 255 exceeds remaining RDM message size of 0
+common/rdm/RDMCommand.cpp:236: Param length 5 exceeds remaining RDM message size of 4
+common/rdm/RDMCommand.cpp:201: RDM data was null
+common/rdm/RDMCommand.cpp:373: Expected a RDM request command but got 33
+..common/rdm/RDMCommand.cpp:195: RDM message is too small, needs to be at least 23, was 10
+common/rdm/RDMCommand.cpp:195: RDM message is too small, needs to be at least 23, was 0
+common/rdm/RDMCommand.cpp:195: RDM message is too small, needs to be at least 23, was 0
+common/rdm/RDMCommand.cpp:228: RDM checksum mismatch, was 692 but was supposed to be 943
+common/rdm/RDMCommand.cpp:236: Param length 255 exceeds remaining RDM message size of 4
+common/rdm/RDMCommand.cpp:236: Param length 5 exceeds remaining RDM message size of 4
+common/rdm/RDMCommand.cpp:510: Command class isn't valid, got 0x20
+common/rdm/RDMCommand.cpp:510: Command class isn't valid, got 0x20
+...common/rdm/RDMCommand.cpp:562: Expected a RDM request command but got 21
+common/rdm/RDMCommand.cpp:562: Expected a RDM request command but got 31
+.....
+
+OK (16)
+PASS common/rdm/RDMCommandTester (exit status: 0)

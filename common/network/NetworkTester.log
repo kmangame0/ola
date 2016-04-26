@@ -1,0 +1,41 @@
+.common/network/IPV4Address.cpp:89: Could not convert address foo
+....common/network/PosixInterfacePicker.cpp:173: hwlen was not expected length, so didn't obtain MAC address; got 0, expecting 6
+
+lo0
+ index: 1
+ ip: 127.0.0.1
+ bcast: 0.0.0.0
+ subnet: 255.0.0.0
+ type: 65535
+ hw_addr: 00:00:00:00:00:00
+
+---------------
+en0
+ index: 4
+ ip: 141.209.188.153
+ bcast: 141.209.189.255
+ subnet: 255.255.254.0
+ type: 65535
+ hw_addr: ac:bc:32:9f:40:a3
+
+---------------
+.common/network/PosixInterfacePicker.cpp:173: hwlen was not expected length, so didn't obtain MAC address; got 0, expecting 6
+.common/network/InterfacePicker.cpp:59: No interfaces found
+common/network/InterfacePicker.cpp:114: No interfaces found
+common/network/IPV4Address.cpp:89: Could not convert address eth0
+common/network/IPV4Address.cpp:89: Could not convert address eth1
+common/network/IPV4Address.cpp:89: Could not convert address foo
+.common/network/IPV4Address.cpp:89: Could not convert address 192.168.1.
+common/network/IPV4Address.cpp:89: Could not convert address 192.168.1.255.255
+common/network/IPV4Address.cpp:89: Could not convert address foobarbaz
+.......common/network/NetworkUtils.cpp:440: Default gateway: 141.209.188.1, if_index: 4
+.common/network/SocketAddress.cpp:58: Length passed to ToSockAddr is too small.
+..common/network/SocketTest.cpp:347: Connection from 127.0.0.1:53130
+common/io/SelectServer.cpp:186: Removing an invalid file descriptor: 0x7fe299e00d60
+.common/network/SocketTest.cpp:365: Connection from 127.0.0.1:53132
+.common/network/Socket.cpp:151: bind(127.0.0.1:0): Invalid argument
+.common/network/Socket.cpp:151: bind(127.0.0.1:9010): Invalid argument
+
+
+OK (21)
+PASS common/network/NetworkTester (exit status: 0)

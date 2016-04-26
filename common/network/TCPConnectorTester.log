@@ -1,0 +1,16 @@
+.common/network/AdvancedTCPConnectorTest.cpp:374: listening on 127.0.0.1:53133
+common/network/AdvancedTCPConnector.cpp:172: TCP Connection established to 127.0.0.1:53133
+common/network/AdvancedTCPConnectorTest.cpp:403: Connection from 127.0.0.1:53134
+.common/network/AdvancedTCPConnectorTest.cpp:374: listening on 127.0.0.1:53135
+common/network/AdvancedTCPConnectorTest.cpp:403: Connection from 127.0.0.1:53136
+common/network/AdvancedTCPConnector.cpp:172: TCP Connection established to 127.0.0.1:53135
+.common/network/TCPConnector.cpp:247: connect() to 127.0.0.1 returned: Connection refused
+common/network/TCPConnector.cpp:247: connect() to 127.0.0.1 returned: Connection refused
+..common/network/TCPConnectorTest.cpp:283: Connection from 127.0.0.1:53143
+.common/network/TCPConnector.cpp:247: connect() to 127.0.0.1 returned: Connection refused
+.common/network/TCPConnector.cpp:146: connect() to 255.255.255.255:0 returned, Can't assign requested address
+..common/network/TCPConnector.cpp:247: connect() to 127.0.0.1 returned: Connection refused
+
+
+OK (9)
+PASS common/network/TCPConnectorTester (exit status: 0)

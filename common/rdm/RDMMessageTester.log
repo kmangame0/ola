@@ -1,0 +1,26 @@
+.common/rdm/GroupSizeCalculator.cpp:66: Got an incorrect number of tokens, expecting 10 tokens, got 11
+.common/rdm/GroupSizeCalculator.cpp:100: Got an incorrect number of tokens, expecting 16 tokens, got 17
+..........................common/rdm/StringMessageBuilderTest.cpp:101: Error with field: Extra tokens
+..common/rdm/StringMessageBuilderTest.cpp:101: Error with field: Insufficient tokens
+.common/rdm/StringMessageBuilder.cpp:109: Error building mesage, field is: bool1
+common/rdm/StringMessageBuilderTest.cpp:101: Error with field: bool1
+common/rdm/StringMessageBuilder.cpp:109: Error building mesage, field is: bool1
+common/rdm/StringMessageBuilderTest.cpp:101: Error with field: bool1
+.common/rdm/StringMessageBuilder.cpp:109: Error building mesage, field is: uint8
+common/rdm/StringMessageBuilderTest.cpp:101: Error with field: uint8
+common/rdm/StringMessageBuilder.cpp:109: Error building mesage, field is: uint8
+common/rdm/StringMessageBuilderTest.cpp:101: Error with field: uint8
+common/rdm/StringMessageBuilder.cpp:109: Error building mesage, field is: uint8
+common/rdm/StringMessageBuilderTest.cpp:101: Error with field: uint8
+.common/rdm/StringMessageBuilder.cpp:109: Error building mesage, field is: int8
+common/rdm/StringMessageBuilderTest.cpp:101: Error with field: int8
+common/rdm/StringMessageBuilder.cpp:109: Error building mesage, field is: int8
+common/rdm/StringMessageBuilderTest.cpp:101: Error with field: int8
+common/rdm/StringMessageBuilder.cpp:109: Error building mesage, field is: int8
+common/rdm/StringMessageBuilderTest.cpp:101: Error with field: int8
+.common/rdm/StringMessageBuilder.cpp:109: Error building mesage, field is: string
+common/rdm/StringMessageBuilderTest.cpp:101: Error with field: string
+......
+
+OK (40)
+PASS common/rdm/RDMMessageTester (exit status: 0)
